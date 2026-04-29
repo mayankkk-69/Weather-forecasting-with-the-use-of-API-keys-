@@ -676,7 +676,7 @@ function App() {
               placeholder="Search for a city..."
               className={`search-input ${shouldUseLightText() ? 'light-text' : ''}`}
             />
-            <button
+            {/* <button
               type="button"
               className={`location-button ${shouldUseLightText() ? 'light-text' : ''}`}
               onClick={handleCurrentLocation}
@@ -699,7 +699,7 @@ function App() {
                 <line x1="12" y1="19" x2="12" y2="23" />
                 <line x1="8" y1="23" x2="16" y2="23" />
               </svg>
-            </button>
+            </button> */}
             {showSuggestions && suggestions.length > 0 && (
               <div className="suggestions-dropdown">
                 {suggestions.map((suggestion, index) => (
@@ -911,7 +911,7 @@ function App() {
               </div>
             </div>
 
-            {advice && (
+            {/* {advice && (
               <div className="advice-section">
                 <div className="advice-header" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px', marginBottom: '24px' }}>
                     <h3 className={`forecast-title ${shouldUseLightText() ? 'light-text' : ''}`} style={{ margin: 0 }}>Health & Safety Advice</h3>
@@ -974,7 +974,7 @@ function App() {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
 
             {forecast && (
               <div className="forecast-section">
@@ -1036,12 +1036,12 @@ function App() {
           </div>
         )}
 
-        <div className="map-section">
+        {/* <div className="map-section">
           <h3 className={`map-title ${shouldUseLightText() ? 'light-text' : ''}`}>
             Explore the World
           </h3>
           <WeatherMap onLocationSelect={handleLocationSelect} />
-        </div>
+        </div> */}
       </div>
     </div>
   )
