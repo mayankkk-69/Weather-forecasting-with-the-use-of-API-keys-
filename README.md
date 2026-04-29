@@ -85,7 +85,7 @@ A modern, feature-rich weather application built with React and Vite, offering a
 4. **Run the development server**
 
    ```bash
-   npm run dev
+   npm run deepak
    ```
 
 5. **Build for production**
